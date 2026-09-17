@@ -34,8 +34,6 @@ A sample JSON string for passing batch parameters
 
 ## Authors
 
-Contributors names and contact info
-
 OTNetworkGuy
 
 ## Version History
