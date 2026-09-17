@@ -1,62 +1,56 @@
-# Project Title
+# REST API Demo
 
-Simple overview of use/purpose.
+Using FactoryTalk Optix as REST API Server.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+A REST API server that accepts POST requests with JSON Data 
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Newtonsoft.Json 13.0.4
 
-### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
 
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
+## Sample JSON
+A sample JSON string for passing batch parameters
 ```
-code blocks for commands
+{
+"Test": {
+    "TestRecipe2": {
+      "Description": "Test Description",
+      "TestParameters": {
+        "BATCH_ID": "112",
+        "S010_MIXING_SPEED": "FAST",
+		"S020_DISCHARGE_TEMP": "22.2"
+          }
+      }
+   }
+}
 ```
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+OTNetworkGuy
 
 ## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
 
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+This project was based on the REST WEB WS Server located at the FactoryTalk Optix Repo.
+* [REST_WEB_WS_Server]https://github.com/FactoryTalk-Optix/REST_WEB_WS_Server
+
+
+## Disclaimer
+
+You acknowledge and agree to accept sole responsibility and liability for any Repository content posted, transmitted, downloaded, or used by you.  There is no obligation to monitor or update Repository content
+
+The examples provided are to be used as a reference for building your own application and should not be used in production as-is. It is recommended to adapt the example for the purpose, observing the highest safety standards.
